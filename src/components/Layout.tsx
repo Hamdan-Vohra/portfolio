@@ -8,7 +8,7 @@ export default function Layout({
   return (
     <div className="">
       <Navbar />
-      <main>{children}</main>
+      {children}
       {/* <Footer /> */}
     </div>
   );
